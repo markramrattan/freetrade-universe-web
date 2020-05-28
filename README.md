@@ -16,7 +16,7 @@ Easy to use web version of all stocks available on freetrade.io.
 
 ## Important Information
 
-Please don't use freetrade logo in any development / project that you publish or use (thank you). Ian / Freetrade are allowing us to put this up on github. Hopefully we can develop the project further :) If you haven't already, check out their website: 
+Please do not use freetrade logo or branding in any development / project that you publish or use (thank you). Ian / Freetrade are allowing us to put this up on github. Hopefully we can develop the project further :) If you haven't already, check out their website: 
 
 * [Freetrade](https://freetrade.io) - Invest. Commission-free. 
 
