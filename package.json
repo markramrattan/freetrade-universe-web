@@ -1,0 +1,12 @@
+{
+  "name": "freetrade-universe-web",
+  "version": "1.0.0",
+  "description": "Making stock information available to all.",
+  "scripts": {},
+  "author": "Mark Ramrattan",
+  "repository": {},
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "uikit": "^3.4.6"
+  }
+}
