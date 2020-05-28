@@ -26,4 +26,10 @@ Please do not use freetrade logo or branding in any development / project that y
 
 ## Installation
 
-You can copy the files to your local and click index.html. I've left in the node modules, so you should be good to go. Feel free to experiment, send pull requests. Any feedback / thoughts welcome. mark.ramrattan.mbs@gmail.com 
+You can copy the files to your local and click index.html. I've left in the node modules, so you should be good to go. Feel free to experiment, send pull requests. 
+
+## Feedback 
+
+Any feedback / thoughts welcome. Email: mark.ramrattan.mbs@gmail.com You can also post feedback on the community forum thread (My user tag is @Marky): 
+
+* https://community.freetrade.io/t/freetrade-universe-web/
