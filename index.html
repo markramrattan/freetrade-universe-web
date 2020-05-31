@@ -17,7 +17,7 @@
 
 $(document).ready(function() {
 	var table = $('#mark').DataTable( {
-		responsive: {
+        responsive: {
 			details: {
 				renderer: function ( api, rowIdx, columns ) {
 					var data = $.map( columns, function ( col, i ) {
@@ -32,8 +32,8 @@ $(document).ready(function() {
 				return data ?$('<table/>').append( data ).append( extra ) :false;
 				}
 			}
-		}
-	} );// end of DataTable                            
+        }
+    } );// end of DataTable                            
 } );
 
 </script>
@@ -60,16 +60,19 @@ $(document).ready(function() {
     <h1 class="uk-heading-bullet uk-margin-bottom">Freetrade Universe</h1>
     <p>Data provided for free by <a href="https://iextrading.com/developers">IEX</a>. View <a href="https://iextrading.com/apiexhibita/">IEX’s Terms of Use</a>. <a href="https://iextrading.com/developers">IEX Real-Time Price</a> </p></br>
 </div>
-
+<div>
+   
+</ul>
 <table  id="mark" class="uk-table uk-table-responsive uk-table-divider uk-table-striped uk-table-hover">
 
 <thead><tr><th>Name</th><th>Full Name</th><th>Sector</th><th>Currency</th><th>ISA</th><th>ISIN</th><th>MIC</th><th>symbol</th><th>Fractional</th></tr></thead>
 <tbody>
-    
- <tr><td><div><a type="link" uk-toggle="target: #toggle-usage">3i</a>
+ <tr><td><div><a href="https://www.londonstockexchange.com/stock/III/3i-group-plc/company-page" target="iframe_a">3i</a>
 <p><a  class="uk-link-text" id="toggle-usage" href="https://public.freetrade.io/costs_and_charges/GB00B1YW4409.html" target="_blank" hidden>Costs & Charges</a></p>
 <p><a class="uk-link-text" id="toggle-usage" type="link" href="http://www.google.com/finance?&q=LON:III" target="_blank" hidden>Price</a></p>
 </div>
+
+
 </td><td>3i Group plc</td><td>Private equity</td><td>GBP</td><td>TRUE</td><td>GB00B1YW4409</td><td>XLON</td><td>III</td><td>FALSE</td></tr>
  <tr><td>AT&T</td><td>AT&T Inc</td><td>Phone lines</td><td>USD</td><td>TRUE</td><td>US00206R1023</td><td>XNYS</td><td>T</td><td>TRUE</td></tr>
  <tr><td>Diversified Gas & Oil</td><td>Diversified Gas & Oil Plc</td><td>Oil and Gas</td><td>GBP</td><td>TRUE</td><td>GB00BYX7JT74</td><td>XLON</td><td>DGOC</td><td>FALSE</td></tr>
@@ -109,7 +112,6 @@ $(document).ready(function() {
  <tr><td>General Motors</td><td>General Motors Co</td><td>Cars</td><td>USD</td><td>TRUE</td><td>US37045V1008</td><td>XNYS</td><td>GM</td><td>TRUE</td></tr>
  <tr><td>Cisco</td><td>Cisco Systems Inc.</td><td>Networking equipment</td><td>USD</td><td>TRUE</td><td>US17275R1023</td><td>XNAS</td><td>CSCO</td><td>TRUE</td></tr>
  <tr><td>Teva</td><td>Teva Pharmaceutical Industries Ltd (ADR)</td><td>Drugs</td><td>USD</td><td>FALSE</td><td>US8816242098</td><td>XNYS</td><td>TEVA</td><td>TRUE</td></tr>
- <tr><td>Japan Trust</td><td>Baillie Gifford Japan Trust plc</td><td>Japanese companies trust</td><td>GBP</td><td>TRUE</td><td>GB0000485838</td><td>XLON</td><td>BGFD</td><td>FALSE</td></tr>
  <tr><td>Russell 2000</td><td>db Xtrackers Russell 2000 UCITS ETF (Acc.)</td><td>US small companies</td><td>GBP</td><td>TRUE</td><td>IE00BJZ2DD79</td><td>XLON</td><td>XRSG</td><td>FALSE</td></tr>
  <tr><td>Spectris</td><td>Spectris plc</td><td>Control systems</td><td>GBP</td><td>TRUE</td><td>GB0003308607</td><td>XLON</td><td>SXS</td><td>FALSE</td></tr>
  <tr><td>FTSE 250</td><td>Vanguard FTSE 250 UCITS ETF (Dist.)</td><td>Mid size UK companies</td><td>GBP</td><td>TRUE</td><td>IE00BKX55Q28</td><td>XLON</td><td>VMID</td><td>FALSE</td></tr>
@@ -217,10 +219,8 @@ $(document).ready(function() {
  <tr><td>Apax Global Alpha</td><td>Apax Global Alpha ltd</td><td>Investment trust</td><td>GBP</td><td>TRUE</td><td>GG00BWWYMV85</td><td>XLON</td><td>APAX</td><td>FALSE</td></tr>
  <tr><td>Greencoat UK</td><td>Greencoat UK Wind Plc</td><td>Wind power trust</td><td>GBP</td><td>TRUE</td><td>GB00B8SC6K54</td><td>XLON</td><td>UKW</td><td>FALSE</td></tr>
  <tr><td>Stobart</td><td>Stobart Group ltd</td><td>Airport operator</td><td>GBP</td><td>TRUE</td><td>GB00B03HDJ73</td><td>XLON</td><td>STOB</td><td>FALSE</td></tr>
- <tr><td>Shopify</td><td>Shopify Inc. (USA)</td><td>Online shops</td><td>USD</td><td>TRUE</td><td>CA82509L1076</td><td>XNYS</td><td>SHOP</td><td>FALSE</td></tr>
  <tr><td>SMT</td><td>Scottish Mortgage Investment Trust plc</td><td>Diversified trust</td><td>GBP</td><td>TRUE</td><td>GB00BLDYK618</td><td>XLON</td><td>SMT</td><td>FALSE</td></tr>
  <tr><td>Trip.com</td><td>Trip.com Grp Ltd</td><td>Online travel booking</td><td>USD</td><td>FALSE</td><td>US89677Q1076</td><td>XNAS</td><td>TCOM</td><td>TRUE</td></tr>
- <tr><td>Crispr Therapeutics</td><td>Crispr Therapeutics, Inc.</td><td>Genetics</td><td>USD</td><td>TRUE</td><td>CH0334081137</td><td>XNAS</td><td>CRSP</td><td>FALSE</td></tr>
  <tr><td>Ferrexpo</td><td>Ferrexpo plc</td><td>Iron ore pellets</td><td>GBP</td><td>TRUE</td><td>GB00B1XH2C03</td><td>XLON</td><td>FXPO</td><td>FALSE</td></tr>
  <tr><td>Howden Joinery</td><td>Howden Joinery plc</td><td>Fitted kitchens</td><td>GBP</td><td>TRUE</td><td>GB0005576813</td><td>XLON</td><td>HWDN</td><td>FALSE</td></tr>
  <tr><td>Chi-Med</td><td>Hutchison China MediTech ltd</td><td>Medicine</td><td>GBP</td><td>TRUE</td><td>KYG4672N1198</td><td>XLON</td><td>HCM</td><td>FALSE</td></tr>
@@ -348,7 +348,6 @@ $(document).ready(function() {
  <tr><td>Hays</td><td>Hays plc</td><td>Recruiting</td><td>GBP</td><td>TRUE</td><td>GB0004161021</td><td>XLON</td><td>HAS</td><td>FALSE</td></tr>
  <tr><td>Pennon Group </td><td>Pennon Group Plc</td><td>Water and wastewater</td><td>GBP</td><td>TRUE</td><td>GB00B18V8630</td><td>XLON</td><td>PNN</td><td>FALSE</td></tr>
  <tr><td>Safestore Holdings</td><td>Safestore Holdings plc</td><td>Storage REIT</td><td>GBP</td><td>FALSE</td><td>GB00B1N7Z094</td><td>XLON</td><td>SAFE</td><td>FALSE</td></tr>
- <tr><td>Taiwan Semi</td><td>Taiwan Semiconductor Manufactory Co Ltd (ADR)</td><td>Semiconductors</td><td>USD</td><td>FALSE</td><td>US8740391003</td><td>XNYS</td><td>TSM</td><td>TRUE</td></tr>
  <tr><td>Inchcape </td><td>Inchcape Plc</td><td>Car dealerships</td><td>GBP</td><td>TRUE</td><td>GB00B61TVQ02</td><td>XLON</td><td>INCH</td><td>FALSE</td></tr>
  <tr><td>Edinburgh World</td><td>Edinburgh Worldwide Investment Trust plc</td><td>Investment trust</td><td>GBP</td><td>TRUE</td><td>GB00BHSRZC82</td><td>XLON</td><td>EWI</td><td>FALSE</td></tr>
  <tr><td>WPP</td><td>WPP plc</td><td>Advertising</td><td>GBP</td><td>TRUE</td><td>JE00B8KF9B49</td><td>XLON</td><td>WPP</td><td>FALSE</td></tr>
@@ -369,7 +368,6 @@ $(document).ready(function() {
  <tr><td>Boeing</td><td>The Boeing Company</td><td>Jumbo jets</td><td>USD</td><td>TRUE</td><td>US0970231058</td><td>XNYS</td><td>BA</td><td>TRUE</td></tr>
  <tr><td>The Gym Group</td><td>The Gym Group Plc</td><td>Discount Gyms</td><td>GBP</td><td>TRUE</td><td>GB00BZBX0P70</td><td>XLON</td><td>GYM</td><td>FALSE</td></tr>
  <tr><td>Spirax Sarco </td><td>Spirax Sarco Engineering plc</td><td>Steam</td><td>GBP</td><td>TRUE</td><td>GB00BWFGQN14</td><td>XLON</td><td>SPX</td><td>FALSE</td></tr>
- <tr><td>Spotify</td><td>Spotify AB</td><td>Music streaming</td><td>USD</td><td>TRUE</td><td>LU1778762911</td><td>XNYS</td><td>SPOT</td><td>FALSE</td></tr>
  <tr><td>F&C Trust</td><td>Foreign and Colonial Investment Trust plc</td><td>Oldest investment trust</td><td>GBP</td><td>TRUE</td><td>GB0003466074</td><td>XLON</td><td>FCIT</td><td>FALSE</td></tr>
  <tr><td>Domino's Pizza</td><td>Domino's Pizza Group plc</td><td>Pizza</td><td>GBP</td><td>TRUE</td><td>GB00BYN59130</td><td>XLON</td><td>DOM</td><td>FALSE</td></tr>
  <tr><td>LXI REIT</td><td>LXI REIT plc</td><td>Commercial REIT</td><td>GBP</td><td>FALSE</td><td>GB00BYQ46T41</td><td>XLON</td><td>LXI</td><td>FALSE</td></tr>
@@ -436,7 +434,6 @@ $(document).ready(function() {
  <tr><td>Emerging Markets</td><td>Genesis Emerging Markets Fund plc</td><td>Emerging markets trust</td><td>GBP</td><td>TRUE</td><td>GG00B4L0PD47</td><td>XLON</td><td>GSS</td><td>FALSE</td></tr>
  <tr><td>Salesforce</td><td>Salesforce.com Inc.</td><td>Sales software</td><td>USD</td><td>TRUE</td><td>US79466L3024</td><td>XNYS</td><td>CRM</td><td>TRUE</td></tr>
  <tr><td>Hilton Food</td><td>Hilton Food Group plc</td><td>Food</td><td>GBP</td><td>TRUE</td><td>GB00B1V9NW54</td><td>XLON</td><td>HFG</td><td>FALSE</td></tr>
- <tr><td>Manchester United</td><td>Manchester United plc</td><td>Football club</td><td>USD</td><td>TRUE</td><td>KYG5784H1065</td><td>XNYS</td><td>MANU</td><td>FALSE</td></tr>
  <tr><td>£ Corp Bond</td><td>iShares Core £ Corp Bond UCITS ETF (Dist.)</td><td>Investment-grade company debt</td><td>GBP</td><td>TRUE</td><td>IE00B00FV011</td><td>XLON</td><td>SLXX</td><td>FALSE</td></tr>
  <tr><td>Japanese Investment</td><td>JPMorgan Japanese Investment Trust</td><td>Japanese companies trust</td><td>GBP</td><td>TRUE</td><td>GB0001740025</td><td>XLON</td><td>JFJ</td><td>FALSE</td></tr>
  <tr><td>Goldman Sachs</td><td>Goldman Sachs Group</td><td>Investment banking</td><td>USD</td><td>TRUE</td><td>US38141G1040</td><td>XNYS</td><td>GS</td><td>TRUE</td></tr>
@@ -550,7 +547,6 @@ $(document).ready(function() {
  <tr><td>Kier Group</td><td>Kier Group plc</td><td>Construction</td><td>GBP</td><td>TRUE</td><td>GB0004915632</td><td>XLON</td><td>KIE</td><td>FALSE</td></tr>
  <tr><td>Vale</td><td>Vale SA (ADR)</td><td>Iron ore</td><td>USD</td><td>TRUE</td><td>US91912E1055</td><td>XNYS</td><td>VALE</td><td>TRUE</td></tr>
  <tr><td>IWG</td><td>IWG Plc</td><td>Office space</td><td>GBP</td><td>TRUE</td><td>JE00BYVQYS01</td><td>XLON</td><td>IWG</td><td>FALSE</td></tr>
- <tr><td>EVR Holdings</td><td>EVR Holdings plc</td><td>VR entertainment</td><td>GBP</td><td>TRUE</td><td>GB00BD2YHN21</td><td>XLON</td><td>EVRH</td><td>FALSE</td></tr>
  <tr><td>Forterra</td><td>Forterra plc</td><td>Construction products</td><td>GBP</td><td>TRUE</td><td>GB00BYYW3C20</td><td>XLON</td><td>FORT</td><td>FALSE</td></tr>
  <tr><td>Mitie</td><td>Mitie Group plc</td><td>Building support services</td><td>GBP</td><td>TRUE</td><td>GB0004657408</td><td>XLON</td><td>MTO</td><td>FALSE</td></tr>
  <tr><td>Worldwide Healthcare</td><td>Worldwide Healthcare Trust plc</td><td>Healthcare trust</td><td>GBP</td><td>TRUE</td><td>GB0003385308</td><td>XLON</td><td>WWH</td><td>FALSE</td></tr>
