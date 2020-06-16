@@ -33,22 +33,8 @@
           "targets": 1,
           "render": function (data, type, row, meta) {
             return '<a href="https://www.google.com/search?q='+row[6]+':'+row[7]+'" target="blank">'+data+'</a>';
-           // https://www.google.com/search?q=NYSE:MKC
           }
-        }
-        /*
-        ,
-        {
-          "targets": 7,
-          "render": function (data, type, row, meta) {
-           
-            return '<a href="https://uk.finance.yahoo.com/quote/'+data+'" target="blank">'+data+'</a>';
-            //'<button onclick="myFunction()">'+data+'</button>';
-            
-          }
-        }*/
-        
-        ],
+        }],
         
         responsive: true,
         "pagingType": "simple",
@@ -78,36 +64,29 @@
 });
 
       
-
   } );
   
   </script>
 
-
 </head>
-
-
 
 <div uk-sticky="" class="uk-navbar-container tm-navbar-container uk-sticky" >
   <div class="uk-container uk-container-expand">
       <nav class="uk-navbar">
-          <div class="uk-navbar-left"><a href="../" class="uk-navbar-item uk-logo"> Freetrade Universe
+          <div class="uk-navbar-left"><a href="https://webdoctorsolutions.com/freetrade" class="uk-navbar-item uk-logo"> Freetrade Universe
               </a></div>
           <div class="uk-navbar-right">
               <ul class="uk-navbar-nav uk-visible@m">
                 <li></li>
-                
                   <button class="uk-button uk-button-default" type="button" uk-toggle="target: #chart-usage">Chart</button>
                   <button class="uk-button uk-button-default" type="button" uk-toggle="target: #table-usage">Table</button>
                   <button class="uk-button uk-button-default" type="button" uk-toggle="target: #web-usage">Web</button>
-                  <!-- <li class="uk-active"><a href="chart.html">Chart</a> </li>-->
               </ul>
               <div class="uk-navbar-item uk-visible@m">
                 <form class="uk-search uk-search-default">
                   <span uk-search-icon></span>
                   <input class="uk-search-input" id="myInputTextField" type="search" placeholder="Search...">
               </form>
-
                           <polyline fill="none" stroke="#000" points="14,10 9.5,14.5 5,10"></polyline>
                           <rect x="3" y="17" width="13" height="1"></rect>
                           <line fill="none" stroke="#000" x1="9.5" y1="13.91" x2="9.5" y2="3"></line>
@@ -125,27 +104,12 @@
 
 <div id="offcanvas" uk-offcanvas="overlay: true">
   <div class="uk-offcanvas-bar">
-
       <ul class="uk-list uk-link-text">
           <li class="uk-active"><a href="#">@Marky</a></li>
           <li > <button class="uk-button uk-button-default" type="button" uk-toggle="target: #chart-usage">Chart</button> </li>
           <li > <button class="uk-button uk-button-default" type="button" uk-toggle="target: #table-usage">Table</button></li>
           <li ><button class="uk-button uk-button-default" type="button" uk-toggle="target: #web-usage">Web</button></li>
-          <!--
-          <li class="uk-parent">
-              <a href="#">Parent</a>
-              <ul class="uk-nav-sub">
-                  <li><a href="#">Sub item</a></li>
-                  <li><a href="#">Sub item</a></li>
-              </ul>
-          </li>
-          <li class="uk-nav-header">Header</li>
-          <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
-          <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
-          <li class="uk-nav-divider"></li>
-          <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>-->
       </ul>
-
   </div>
 </div>
 
@@ -1146,18 +1110,15 @@
  <tr><td>*Quest</td><td>Quest Diagnostics Inc</td><td>Lab results database</td><td>USD</td><td>TRUE</td><td>US74834L1008</td><td>NYSE</td><td>DGX</td><td>TRUE</td></tr>
  <tr><td>*Eversource</td><td>Eversource Energy</td><td>Electricity</td><td>USD</td><td>TRUE</td><td>US30040W1080</td><td>NYSE</td><td>ES</td><td>TRUE</td></tr>
   
-  </tbody></table>
-
 </tbody></table>
-</div>
 
-   <div id="web-usage" class="uk-container uk-container-center uk-margin-top">
-    <iframe height="700px" width="100%" src="https://freetrade.io" name="iframe"></iframe>
+</div>
+    <div class="uk-container uk-container-center uk-margin-top">
+    <iframe id="web-usage" height="700px" width="100%" src="https://freetrade.io" name="iframe"></iframe>
 <div>
 
 <span class="uk-label uk-margin-top">Version 1.5</span>
 <div class="uk-margin-top">
- <!-- <p>Data provided for free by <a href="https://iextrading.com/developers">IEX</a>. View <a href="https://iextrading.com/apiexhibita/">IEX’s Terms of Use</a>. <a href="https://iextrading.com/developers">IEX Real-Time Price</a> </p>-->
   <p>Please provide feedback: <a href="https://community.freetrade.io/t/freetrade-universe-web">https://community.freetrade.io/t/freetrade-universe-web</a></p>
 <script language="Javascript">
     document.write("Last modified on: " + document.lastModified +"");
