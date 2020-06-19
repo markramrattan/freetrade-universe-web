@@ -7,6 +7,6 @@
   "repository": {},
   "dependencies": {
     "jquery": "^3.5.1",
-    "uikit": "^3.4.6"
+    "uikit": "^3.5.4"
   }
 }
