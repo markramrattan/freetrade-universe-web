@@ -5,13 +5,13 @@ Easy to use web version of all stocks available on freetrade.io.
 ## Features
 
   - Search all stocks available and filter by sector, name, currency, etc...
-  - Mobile friendly / responsive 
+  - Mobile friendly / responsive
+  - Links to costs associated with each stock
+  - Graphing historical data of each stock (Using TradingView integration)
  
 ## Currently in Development
 
   - Live stock prices next to each stock 
-  - Links to costs associated with each stock 
-  - Graphing historical data of each stock
   - Dividend payment yes / no next to each stock
 
 ## Important Information
