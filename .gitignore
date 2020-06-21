@@ -1,2 +1,4 @@
 config.codekit3
 testing/
+package.json
+package-lock.json
