@@ -1,6 +1,6 @@
 # Freetrade Universe Web
 
-Easy to use web version of all available US and UK stocks & ETFs on https://freetrade.io. 
+Easy to use web version of all available US, UK stocks & ETFs on https://freetrade.io. 
 
 ## Features
 
